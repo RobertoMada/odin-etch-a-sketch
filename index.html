@@ -3,8 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <title>Etch a sketch</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    
+    <div class="header">ETCH A SKETCH</div>
+    <div class="main">
+      <div class="control-container">
+        <input class="color-selector" type="color" value="#e66465">
+        <button>Rainbow Mode</button>
+        <button>Eraser</button>
+        <button>Clear</button>
+        <label id="grid-size" class="grid-size" for="grid-selector">10x10</label>
+        <input id="grid-selector" class="grid-selector" type="range" min="10" max="100" value="10" step="2">
+      </div>
+      <div class="grid-container">
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Copyright ©
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+        <a href="https://github.com/RobertoMada" target="_blank">RobertoMada</a>  
+      </p>
+    </footer> 
   </body>
 </html>
