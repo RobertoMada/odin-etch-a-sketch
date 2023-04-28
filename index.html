@@ -11,10 +11,13 @@
     <div class="main">
       <div class="control-container">
         <input class="color-selector" type="color" value="#e66465">
-        <button>Rainbow Mode</button>
-        <button>Eraser</button>
-        <button>Clear</button>
-        <label id="grid-size" class="grid-size" for="grid-selector">10x10</label>
+        <button class="toggle-button active">Color Mode</button>
+        <button class="toggle-button">Rainbow Mode</button>
+        <button class="toggle-button">Eraser</button>
+        <button class="clear-button">Clear</button>
+        <label id="grid-size" class="grid-size" for="grid-selector">
+          10 x 10
+        </label>
         <input id="grid-selector" class="grid-selector" type="range" min="10" max="100" value="10" step="2">
       </div>
       <div class="grid-container">

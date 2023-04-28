@@ -54,7 +54,7 @@ button{
   background-color: rgb(69, 69, 69);
   color: rgb(255, 96, 0);
   border: none;
-  padding: 20px;
+  padding: 18px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -95,8 +95,7 @@ button{
   color: rgb(69, 69, 69);
 }
 
-
-
-.red-color{
-  background-color: purple;
+.active{
+  background-color: rgb(255, 96, 0);
+  color: rgb(69, 69, 69);
 }
